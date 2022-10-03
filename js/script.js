@@ -1,4 +1,6 @@
+/* eslint-disable no-new */
 /* eslint-disable no-confusing-arrow */
+
 // ============================== DARK THEME ==============================
 const themeButton = document.getElementById('theme-button');
 const darkTheme = 'dark-theme';
@@ -61,4 +63,11 @@ const linkAction = () => {
 
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
-console.log('remove menu profile is working');
+// ======================== REMOVE MENU PROFILE ========================
+
+new Typewriter('#typewriter', {
+  strings: ['Cody Schexnider', 'Software Engineer', 'Open Source Contributor'],
+  autoStart: true,
+  loop: true,
+  cursor: '|',
+});
