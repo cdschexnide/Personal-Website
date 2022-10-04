@@ -66,7 +66,7 @@ navLink.forEach((n) => n.addEventListener('click', linkAction));
 // ======================== REMOVE MENU PROFILE ========================
 
 new Typewriter('#typewriter', {
-  strings: ['Cody Schexnider', 'Software Engineer', 'Open Source Contributor'],
+  strings: ['Cody Schexnider', 'Web Developer', 'Open Source Contributor'],
   autoStart: true,
   loop: true,
   cursor: '|',
